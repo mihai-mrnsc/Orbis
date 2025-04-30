@@ -1,0 +1,68 @@
+## Build output
+bin/
+obj/
+out/
+artifacts/
+
+## Rider / VS Code / VS
+.idea/
+.vscode/
+.vs/
+*.user
+*.suo
+
+## ASP.NET Secrets
+**/secrets.json
+*.pfx
+
+## Local database files
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+## Logs
+*.log
+logs/
+
+## Publish output
+wwwroot/dist/
+dist/
+publish/
+*.Publish.xml
+
+## Environment files
+.env
+.env.*
+
+## NPM / Yarn / Node
+node_modules/
+package-lock.json
+yarn.lock
+
+## Coverage / test output
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Auto-generated files
+Generated_Code/
+Generated_Files/
+*.g.cs
+*.designer.cs
+
+## User-specific
+*.vspscc
+*.vssscc
+*.orig
+*.rej
+*.cache

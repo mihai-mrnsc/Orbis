@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Orbis - Scratch Map";
+}
+<h1>Orbis – Where Have You Travelled?</h1>
+<div id="map" style="height: 600px; border: 2px solid #333; border-radius: 8px;"></div>
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- App -->
+<script src="~/js/map.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', initMap);
+</script>

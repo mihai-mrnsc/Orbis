@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis.Web", "Orbis.Web.csproj", "{52BF9DE0-BF50-B4E0-D504-71FE2DAC09D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BF9DE0-BF50-B4E0-D504-71FE2DAC09D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BF9DE0-BF50-B4E0-D504-71FE2DAC09D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BF9DE0-BF50-B4E0-D504-71FE2DAC09D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BF9DE0-BF50-B4E0-D504-71FE2DAC09D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC4D14E8-4430-400B-B0F8-B798C4655337}
+	EndGlobalSection
+EndGlobal
