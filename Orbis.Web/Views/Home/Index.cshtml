@@ -1,15 +1,28 @@
 ﻿@{
     ViewData["Title"] = "Orbis - Scratch Map";
+    Layout = "_Layout";
 }
 <h1>Orbis – Where Have You Travelled?</h1>
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 10px 0;">
+    <div id="visited-count" style="font-weight: bold;">Visited: 0</div>
+    <button id="clear-button" class="btn btn-danger btn-sm">Clear All</button>
+</div>
+
 <div id="map" style="height: 600px; border: 2px solid #333; border-radius: 8px;"></div>
 
-<!-- Leaflet -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+@section Scripts {
+    <!-- Leaflet CSS + JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<!-- App -->
-<script src="~/js/map.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', initMap);
-</script>
+    <!-- Scriptul tău personalizat -->
+    <script src="~/js/map.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            initMap();
+            @* window.addEventListener('beforeunload', () => console.log('🔄 Page reload detected!')); *@
+                });
+    </script>
+}
