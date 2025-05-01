@@ -64,10 +64,10 @@ async function initMap() {
     updateCounter(visited.length);
 }
 
-// async function updateVisitedUI() {
-//     const visited = await getVisited();
-//     document.getElementById('visited-counter').textContent = `Visited: ${visited.length}`;
-// }
+async function updateVisitedUI() {
+    const visited = await getVisited();
+    document.getElementById('visited-counter').textContent = `Visited: ${visited.length}`;
+}
 
 async function clearVisited() {
     await fetch("/api/visitedcountries", { method: "DELETE" });
