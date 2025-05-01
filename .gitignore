@@ -66,3 +66,8 @@ Generated_Files/
 *.orig
 *.rej
 *.cache
+
+# Temporary files created by SQLite
+*.db-journal
+*.db-wal
+*.db-shm
